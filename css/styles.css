@@ -33,7 +33,7 @@ body {
     background: var(--white);
     font-family: 'Roboto', sans-serif;
     color: #2e2f42;
-    width: 1128px;
+    /* width: 1128px; */
     height: 420px;
 }
 /* header */
