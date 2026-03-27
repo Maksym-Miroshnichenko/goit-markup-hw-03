@@ -42,6 +42,10 @@ header {
     width: 1440px;
     height: 72px;  
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 156px;  
+    padding-right: 156px;
 }
 
 a{
@@ -60,18 +64,18 @@ a{
 .head-ul-1{
     display: flex;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    /* margin-top: 24px;
+    margin-bottom: 24px; */
 }
 
 .head-ul-2{
     display: flex;
     gap: 40px;
-    margin-top: 24px;
+    /* margin-top: 24px;
     margin-bottom: 24px;
-    margin-left: 332px;  
-    margin-right: 156px;
-}
+    margin-right: 156px; */
+    margin-left: 332px;
+}   
 
 .menu-nav {
     width: 261px;
@@ -96,9 +100,6 @@ a{
     width: 115px;
     height: 24px;
     font-family: var(--second-family);
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 156px;
     margin-right: 76px;
 }
 
@@ -190,7 +191,6 @@ button:focus{
 /* Our Features */
 
 .hidden{
-    display: none;
     visibility: hidden;
 }
 
@@ -201,7 +201,7 @@ button:focus{
 }
 
 .sec-of{
-    width: 1440px;
+    /* width: 1440px; */
     height: 344px;
 }
 
@@ -228,7 +228,7 @@ button:focus{
 
 /* Our Team */
 .sec-ot{
-    width: 1440px;
+    /* width: 1440px; */
     height: 732px;
 }
 .sec-ot-plus{
@@ -284,9 +284,14 @@ button:focus{
     color: var(--slate);
     margin-bottom: 32px;
 }
+
+.sec-ot-img{
+    display: block;
+}
+
 /* Our Portfolio */
 .sec-op{
-    width: 1440px;
+    /* width: 1440px; */
     height: 1240px;
 }
 
@@ -328,6 +333,7 @@ button:focus{
 .sec-op-img{
     width: 360px;
     height: 300px;
+    display: block;
 }
 
 .sec-op-h{
@@ -348,7 +354,7 @@ button:focus{
 }
 /* footer */
 footer{
-    width: 1440px;
+    /* width: 1440px; */
     height: 312px;
     background: var(--navy-blue);
     padding: 100px 1020px 100px 156px;
@@ -382,4 +388,8 @@ footer{
     letter-spacing: 0.02em;
     color: var(--cloud);
     margin-top: 16px;
+}
+
+.container{
+    width: 1158px;
 }
