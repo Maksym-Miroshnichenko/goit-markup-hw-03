@@ -89,6 +89,7 @@ a{
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     text-decoration: none;
+    padding: 24px 0;
 } 
 
 .menu-nav:hover{
@@ -107,7 +108,7 @@ a{
     text-transform: uppercase;
     color: var(--navy-blue);
     font-family: var(--second-family);
-    /* margin-right: 76px; */
+    margin-right: 76px;
 }
 
 .logo:hover{
@@ -159,7 +160,7 @@ a{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* padding: 120px 0; */
+    padding: 188px 0;
     
 }
 
@@ -170,6 +171,8 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
+    max-width: 496px;
+    margin: 0 auto 48px;
     /* padding-top: 188px; */
     /* padding-bottom: 48px; */
 }
@@ -177,6 +180,7 @@ a{
 button{
     border-radius: 4px;
     padding: 16px 32p;
+    border: none;
     width: 169px;
     height: 56px;
 
@@ -206,9 +210,22 @@ button:focus{
 /* Our Features */
 
 .visually-hidden{
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.sec-of{
+    /* width: 1440px; */
+    /* height: 344px; */
+    padding: 120px 0;
 }
 
 .sec-of-ul{
@@ -216,11 +233,6 @@ button:focus{
     /* padding-top: 120px;
     padding-bottom: 120px; */
     gap: 24px;
-}
-
-.sec-of{
-    /* width: 1440px; */
-    height: 344px;
 }
 
 .sec-of-li{
@@ -234,6 +246,7 @@ button:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-bottom: 8px;
 }
 
 .sec-of-f-p{
@@ -247,7 +260,7 @@ button:focus{
 /* Our Team */
 .sec-ot{
     /* width: 1440px; */
-    height: 732px;
+    /* height: 732px; */
 }
 .sec-ot-plus{
     background: var(--cloud);
@@ -264,6 +277,7 @@ button:focus{
     flex-wrap: nowrap;
     /* padding-top: 120px;
     padding-bottom: 72px; */
+    margin-bottom: 72px;
 }
 
 .sec-ot-ul{
@@ -303,6 +317,10 @@ button:focus{
     /* margin-bottom: 32px; */
 }
 
+.sec-ot-text{
+    padding: 32px 0;
+}
+
 .sec-ot-img{
     display: block;
 }
@@ -310,7 +328,8 @@ button:focus{
 /* Our Portfolio */
 .sec-op{
     /* width: 1440px; */
-    height: 1240px;
+    /* height: 1240px; */
+    padding: 120px 0;
 }
 
 .sec-op-ih{
@@ -321,16 +340,18 @@ button:focus{
     text-align: center;
     color: var(--navy-blue);
 
-    /* padding-top: 120px;
-    padding-bottom: 72px; */
+    /* padding-top: 120px; */
+    padding-bottom: 72px;
 }
 
 .sec-op-ul{
-    width: 1128px;
-    height: 420px;
+    /* width: 1128px;
+    height: 420px; */
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 } 
 
 .sec-op-li{
@@ -359,7 +380,7 @@ button:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    /* margin-bottom: 8px; */
+    margin-bottom: 8px;
 }
 
 .sec-op-p{
@@ -374,7 +395,7 @@ footer{
     /* width: 1440px; */
     height: 312px;
     background: var(--navy-blue);
-    /* padding: 100px 1020px 100px 156px; */
+    padding: 100px 0;
 }
 
 .logo-footer{
@@ -404,15 +425,16 @@ footer{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
-    /* margin-top: 16px; */
+    margin-top: 16px;
 }
 
 .container{
     width: 1158px;
     margin: 0 auto;      
     padding: 0 15px;     
-
 }
-.flex{
+.container.flex {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
