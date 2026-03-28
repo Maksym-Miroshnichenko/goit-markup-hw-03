@@ -374,13 +374,13 @@ body {
     border-left: 1px solid var(--cornflower);
     border-right: 1px solid var(--cornflower);
     padding: 32px 16px;
-    width: calc((100% - 48px) / 3);
+    /* width: calc((100% - 48px) / 3); */
     /* height: 120px; */
 }
 
 .sec-op-img{
-    width: 360px;
-    height: 300px;
+    /* width: 360px;
+    height: 300px; */
     display: block;
 }
 
