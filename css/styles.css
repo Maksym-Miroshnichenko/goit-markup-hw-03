@@ -181,8 +181,8 @@ body {
     border-radius: 4px;
     padding: 16px 32px;
     border: none;
-    width: 169px;
-    height: 56px;
+    /* width: 169px;
+    height: 56px; */
 
     font-weight: 500;
     font-size: 16px;
@@ -304,7 +304,7 @@ body {
     text-align: center;
     color: var(--navy-blue);
     white-space: nowrap;
-    /* margin: 32px 0px 8px 0px; */
+    margin-bottom: 8px;
     text-align: center;
 }
 
@@ -397,6 +397,7 @@ body {
     /* height: 312px; */
     background: var(--navy-blue);
     padding: 100px 0;
+    max-width: 264px;
 }
 
 .logo-footer{
@@ -430,7 +431,7 @@ body {
 }
 
 .container{
-    /* width: 1158px; */
+    max-width: 1158px;
     margin: 0 auto;      
     padding: 0 15px;     
 }
