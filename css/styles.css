@@ -18,7 +18,17 @@
     --second-family: "Raleway", sans-serif;
 }
 
-* {
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -29,7 +39,7 @@ ul {
   padding: 0;
   list-style: none;
   list-style-type: none;
-}
+} */
 
 body {
     background: var(--white);
@@ -156,6 +166,8 @@ body {
     /* height: 600px; */
     background: var(--navy-blue);
 
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -237,7 +249,6 @@ body {
 
 .sec-of-li{
     width: 264px;
-    height: 104px;
 }
 
 .sec-of-f-h{
@@ -290,7 +301,6 @@ body {
     border-radius: 0 0 4px 4px;
     /* padding: 0px 0px 32px; */
     width: 264px;
-    height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
     /* margin-bottom: 120px; */
@@ -342,7 +352,7 @@ body {
     color: var(--navy-blue);
 
     /* padding-top: 120px; */
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .sec-op-ul{
@@ -357,7 +367,6 @@ body {
 
 .sec-op-li{
     width: calc((100% - 48px) / 3);
-    height: 420px;
 }
 
 .sec-op-pod-li{
@@ -365,8 +374,8 @@ body {
     border-left: 1px solid var(--cornflower);
     border-right: 1px solid var(--cornflower);
     padding: 32px 16px;
-    width: 360px;
-    height: 120px;
+    width: calc((100% - 48px) / 3);
+    /* height: 120px; */
 }
 
 .sec-op-img{
@@ -397,7 +406,6 @@ body {
     /* height: 312px; */
     background: var(--navy-blue);
     padding: 100px 0;
-    max-width: 264px;
 }
 
 .logo-footer{
@@ -408,10 +416,12 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--cloud);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-span-footer{
-   font-family: var(--second-family);
+    font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -427,7 +437,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
-    margin-top: 16px;
+    /* margin-top: 16px; */
+    max-width: 264px;
 }
 
 .container{
