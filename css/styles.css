@@ -41,10 +41,10 @@ body {
 header {
     border-bottom: 1px solid var(--cornflower);
     /* width: 1440px; */
-    height: 72px;  
+    /* height: 72px;   */
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     /* padding-left: 156px;  
     padding-right: 156px; */
 
@@ -53,11 +53,6 @@ header {
 }
 
 a{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
     text-decoration: none;
 }
 
@@ -73,17 +68,27 @@ a{
 }
 
 .head-ul-2{
+    text-align: right;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 40px;
     /* margin-top: 24px;
     margin-bottom: 24px;
     margin-right: 156px; */
-    margin-left: 332px;
+    /* margin-left: 332px; */
 }   
 
 .menu-nav {
-    width: 261px;
-    height: 24px;
+    /* width: 261px;
+    height: 24px; */
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-decoration: none;
 } 
 
 .menu-nav:hover{
@@ -102,7 +107,7 @@ a{
     text-transform: uppercase;
     color: var(--navy-blue);
     font-family: var(--second-family);
-    margin-right: 76px;
+    /* margin-right: 76px; */
 }
 
 .logo:hover{
@@ -147,14 +152,15 @@ a{
 /* hero */
 .hero{
     /* width: 1440px; */
-    height: 600px;
+    /* height: 600px; */
     background: var(--navy-blue);
 
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
-
+    /* padding: 120px 0; */
+    
 }
 
 .hero-big{
@@ -164,13 +170,13 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
-    padding-top: 188px;
-    padding-bottom: 48px;
+    /* padding-top: 188px; */
+    /* padding-bottom: 48px; */
 }
 
 button{
     border-radius: 4px;
-    padding: 16px 32px;
+    padding: 16px 32p;
     width: 169px;
     height: 56px;
 
@@ -184,7 +190,7 @@ button{
     background: var(--iris);
     cursor: pointer;
 
-    margin-bottom:188px;
+    /* margin-bottom:188px; */
     white-space: nowrap;
 }
 
@@ -199,14 +205,16 @@ button:focus{
 
 /* Our Features */
 
-.hidden{
-    visibility: hidden;
+.visually-hidden{
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .sec-of-ul{
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
     gap: 24px;
 }
 
@@ -254,8 +262,8 @@ button:focus{
     color: var(--navy-blue);
     white-space: nowrap;
     flex-wrap: nowrap;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    /* padding-top: 120px;
+    padding-bottom: 72px; */
 }
 
 .sec-ot-ul{
@@ -270,7 +278,7 @@ button:focus{
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 }
 
 .sec-ot-h{
@@ -292,7 +300,7 @@ button:focus{
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--slate);
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
 .sec-ot-img{
@@ -313,8 +321,8 @@ button:focus{
     text-align: center;
     color: var(--navy-blue);
 
-    padding-top: 120px;
-    padding-bottom: 72px;
+    /* padding-top: 120px;
+    padding-bottom: 72px; */
 }
 
 .sec-op-ul{
@@ -351,7 +359,7 @@ button:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 }
 
 .sec-op-p{
@@ -366,7 +374,7 @@ footer{
     /* width: 1440px; */
     height: 312px;
     background: var(--navy-blue);
-    padding: 100px 1020px 100px 156px;
+    /* padding: 100px 1020px 100px 156px; */
 }
 
 .logo-footer{
@@ -396,7 +404,7 @@ footer{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
-    margin-top: 16px;
+    /* margin-top: 16px; */
 }
 
 .container{
