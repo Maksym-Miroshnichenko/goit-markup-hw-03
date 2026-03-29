@@ -50,9 +50,9 @@ body {
 /* header */
 .header {
     border-bottom: 1px solid var(--cornflower);
-    /* width: 1440px; */
+    width: 100%;
     /* height: 72px;   */
-    display: flex;
+    /* display: flex; */
     /* padding-top: 24px;
     padding-bottom: 24px; */
     /* padding-left: 156px;  
@@ -68,6 +68,7 @@ body {
 
 .head-nav{
     display: flex;
+    align-items: center;
 }
 
 .head-ul-1{
@@ -99,6 +100,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     text-decoration: none;
+    display: block;
     padding: 24px 0;
 } 
 
@@ -119,6 +121,7 @@ body {
     color: var(--navy-blue);
     font-family: var(--second-family);
     margin-right: 76px;
+    
 }
 
 .logo:hover{
@@ -334,6 +337,8 @@ body {
 
 .sec-ot-img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Our Portfolio */
@@ -379,8 +384,8 @@ body {
 }
 
 .sec-op-img{
-    /* width: 360px;
-    height: 300px; */
+    max-width: 100%;
+    height: auto;
     display: block;
 }
 
